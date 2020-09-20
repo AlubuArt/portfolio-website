@@ -1,0 +1,91 @@
+.about {
+    background-color: #2C2C2C;
+    
+
+}
+
+.about-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.profile-picture {
+    height: 520px;
+    
+    margin-left: 200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 390px;
+    box-shadow: 0px 0px 20px 15px #00000020;
+    
+
+}
+
+.about-text-container {
+    height: 520px;
+    min-height: 300px;
+    margin-left: 100px;
+    margin-right: 200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: #363636;
+    box-shadow: 0px 0px 20px 15px #00000020;
+    
+    
+    max-width: 1082px;
+    
+    min-width:328px;
+    
+    width: 100%;
+    font-family: avenir next;
+    color: white;
+    
+}
+
+.about-text-container .about-me {
+    padding-right: 150px;
+}
+
+.about-me p {
+    font-size: 18px;
+    font-weight: normal;
+    margin-left: 20px;
+    
+    padding-right: 30px;
+}
+
+.about-text-container h2 {
+    font-size: 35px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.get-in-touch {
+    margin-bottom: 20px;
+}
+
+.get-in-touch p {
+    font-size: 18px;
+    font-weight: normal;
+    margin-left: 20px;
+    
+}
+
+
+.about-tect-container .get-in-touch {
+    padding-bottom: 120px;
+}
+
+.about-text-container .icon-container {
+    
+    float: right;
+    right: 0;
+    bottom: 0;   
+}
+
+.icon-container img {
+    padding: 10px;
+
+}
