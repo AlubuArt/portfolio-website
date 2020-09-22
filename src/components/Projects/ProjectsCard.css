@@ -1,0 +1,78 @@
+
+
+.Card-container {
+    /* background-color: lightblue; */
+    margin-bottom: 100px;
+    padding-bottom: 100px;
+    margin-left: 40px;
+    margin-right: 40px;
+    
+    
+
+}
+
+.projectsCard-header-container {
+    text-align: left;
+}
+
+.projectsCard-header-container > h2 {
+    font-size: 22px;
+    font-family: avenir next;
+    margin-block-end: 5px;
+
+}
+
+.two-col-container {
+    display: flex;
+    max-width: 600px;
+    background-color: white;
+    padding: 30px;
+    box-shadow: 0px 0px 20px 15px #00000020;
+
+
+}
+
+.project-description-container {
+    text-align: left;
+    font-family: avenir next;
+    font-size: 16px;
+    font-weight: lighter;
+    margin-right: 30px;
+    width: 40%;
+}
+.project-image-container {
+    width: 60%;
+
+}
+
+.project-image > img{
+    max-width:100%;
+}
+.project-image-container-footer {
+
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.live-version-link {
+    background-color: Black; 
+    color: white;
+    width: 100%;
+    height: 30px;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.github-link {
+    background-color: white;
+    color:black;
+    width: 100%;
+    height: 30px;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+
+}

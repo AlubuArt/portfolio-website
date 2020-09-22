@@ -1,6 +1,6 @@
 import React from 'react'
-import ExperienceCards from './ExperienceCards';
-import EducationCards from './EducationCards';
+import ExperienceCards from './ExperienceCards/ExperienceCards';
+import EducationCards from './EducationCards/EducationCards';
 import Skills from './Skills';
 
 

@@ -1,0 +1,45 @@
+.quote-container {
+    background-image: url("../../images/parallax_background.jpg");
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+   
+    height: 1033px;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+  
+    
+
+
+}
+
+
+.author-text-container {
+    
+    
+}
+
+.quote-text {
+    
+    width: 35%;
+    text-align: center;
+    font-size: 28px;
+    color: white;
+    font-style: italic;
+    padding-top: 200px;
+    font-family: avenir next;
+}
+
+.quote-text > p {
+
+}
+
+.author {
+    text-align: right;
+}
+
+.author > p {
+    font-size: 18px;
+}
