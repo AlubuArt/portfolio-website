@@ -4,8 +4,7 @@ import About from './About'
 import Resume from './Resume';
 import Projects from './Projects/Projects';
 import Quote from './Quote/Quote';
-
-
+import ContactForm from './Contact/ContactForm';
 
 function Home() {
     return (
@@ -15,7 +14,7 @@ function Home() {
             <Resume />
             <Projects />
             <Quote />
-
+            <ContactForm />
         </div>
     )
 }

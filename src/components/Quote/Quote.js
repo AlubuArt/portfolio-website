@@ -12,13 +12,8 @@ function Qoute() {
                     <div className="author">
                         <p className="author-name">- Names Nameson</p>
                     </div>
-                </div>
-                <div className="author-text-container">
-                    
-                </div>   
-                    
-            </div>
-                
+                </div>               
+            </div>  
         </div>
         
     )
