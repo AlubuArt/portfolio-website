@@ -5,6 +5,7 @@ import Resume from './Resume';
 import Projects from './Projects/Projects';
 import Quote from './Quote/Quote';
 import ContactForm from './Contact/ContactForm';
+import Footer from './Footer/Footer'
 
 function Home() {
     return (
@@ -15,6 +16,8 @@ function Home() {
             <Projects />
             <Quote />
             <ContactForm />
+            <Footer />
+
         </div>
     )
 }

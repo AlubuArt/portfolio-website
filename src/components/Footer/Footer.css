@@ -1,0 +1,18 @@
+.footer-main-container {
+    background-color: #A6ADB4;
+    height: 100px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-container {
+    margin: 20px;
+    padding: 30px;
+    
+}
+
+.footer-container img {
+    padding: 30px;
+}

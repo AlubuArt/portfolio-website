@@ -2,3 +2,8 @@ body {
   display: block;
   margin: 0px;
 }
+
+.navn {
+  z-index: 100;
+  
+}
