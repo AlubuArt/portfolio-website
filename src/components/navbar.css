@@ -35,4 +35,10 @@
 
 }
 
-  
+@media screen and (max-width: 960px) {
+  .navbar-container > .link-item {
+    position: relative;
+  }
+
+
+}

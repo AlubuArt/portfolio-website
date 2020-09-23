@@ -18,8 +18,11 @@ function About() {
                     
                     <div className="about-text-container">
                         <div className="about-me">
+                            
+                            
                             <h2>About me</h2>
-                            <p>Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.</p>
+                            <p>Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.
+                                 Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.</p>
                         </div>
                         <br />
                         <div className="one-two">
@@ -31,12 +34,13 @@ function About() {
                                 <p>phone number</p>
                                 <p>email</p>
                             </div>
-                            <div className="icon-container">
+                            
+                        </div>
+                        <div className="icon-container">
                                 <img src={linkedIn} alt="linkedin"></img>
                                 <img src={github} alt="github"></img>
                                 <img src={email} alt="email"></img>
                             </div>
-                        </div>
                     </div>
                     
                 

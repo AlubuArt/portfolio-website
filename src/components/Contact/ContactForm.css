@@ -1,45 +1,32 @@
 .contact-main-container {
     background-color: #2C2C2C;
     padding-top: 100px;
-    padding-bottom: 100px;
-    margin-top: 150px;
-    
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    display: flex;
+    padding-bottom: 200px;
+    margin-top: 200px;
+   
 }
 
 .contact-container {
-    
+    justify-content: center;
+    align-items: center;
+    display: flex;
     font-family: Avenir next;
-    
-    margin:auto;
-    width: 47%;
-    
-    
-    
-
-
+    width: 91%;
 
 }
 
 .contact-form-container {
     
-margin: 120px;
+
 padding: 20px;
 width: 600px;;
 position: relative;
-
-
-    
+  
 }
 
 .form-header {
     color: white;
-    padding: 20px;
     padding-left: 200px;
-
 }
 
 .name-section {
@@ -48,16 +35,11 @@ position: relative;
     justify-items: right;
     position: relative;
     align-items: center;
-    
-    
-
 }
 
 .name-input {
-    
     height: 30px;
-    width: 100%;
-    
+    width: 100%; 
 }
 
 .email-section {
@@ -107,11 +89,7 @@ position: relative;
     position: absolute;
     width: 80%;
     overflow: hidden;
-    
-
-    
-    
-    
+  
 }
 
 input[type=text] {
@@ -121,7 +99,7 @@ input[type=text] {
     height: 25px;
     width: 100%;
     justify-items: right;
-    padding: 12px;
+    
     resize: vertical;
     border: none;
 
@@ -133,7 +111,7 @@ textarea {
     height: 80px;
     width: 100%;
     justify-items: right;
-    padding: 12px;
+    
     resize: vertical;
     border: none;
 
@@ -172,3 +150,44 @@ textarea {
     width: 25%;
     margin-top: 6px;
   }
+
+
+  @media screen and (max-width:1280px) { 
+
+    .contact-main-container {
+        background-color: #2C2C2C;
+        padding-top: 50px;
+        padding-bottom: 70px;
+        margin-top: -50px;
+       
+    }
+
+    .contact-container {
+       
+        width: 87%;
+    
+    }
+
+}
+
+@media screen and (max-width: 960px) { 
+    
+
+
+}
+  
+@media screen and (max-width: 768px) {
+
+
+
+}
+
+
+@media screen  and (max-width: 400px){
+    .contact-container {
+       
+        width: 87%;
+        
+    
+    }
+}

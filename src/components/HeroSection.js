@@ -8,15 +8,10 @@ function HeroSection() {
     return (
         <div className="hero-container">
             <img src={hero} alt="sdf" className="hero-image" />
-            <div className="heroHeadline">
+            
                 <h1>JACOB CHRISTENSEN</h1>
                 <p>Dedikeret og kreativ konceptudvikler med interesse for webudvikling og UX-design.</p>
-            </div>
-            <div>
-                
-            </div>
-            
-            
+ 
         </div>
         
     )

@@ -1,5 +1,5 @@
 .resume-card-container {
-    width: 730px;
+    width: 700px;
     font-family: avenir next;
     font-size: 16px;
     
@@ -39,16 +39,6 @@
     bottom: 0;
 }
 
-
-.description {
-    
-
-}
-
-.keywords {
-    
-
-}
 .from-to {
     text-align: center;
   }

@@ -5,7 +5,7 @@ import './Quote.css'
 
 function Qoute() {
     return (
-        <div>
+        
             <div className="quote-container">
                 <div className="quote-text">
                     <p className="quote">“Lorem ipsum dolor sit amet consectetur adipiscing elit suscipit, condimentum mauris convallis cras iaculis at tempus dignissim arcu, sollicitudin posuere porta non tellus dictumst penatibus. Commodo ante quis senectus quisque semper dapibus porttitor libero lacus hendrerit volutpat, in cras a himenaeos </p>
@@ -14,7 +14,7 @@ function Qoute() {
                     </div>
                 </div>               
             </div>  
-        </div>
+        
         
     )
 }

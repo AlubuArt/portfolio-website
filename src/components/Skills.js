@@ -20,7 +20,7 @@ function Skills() {
 
             </div>
             <div className="skills-container">
-            <SkillBar 
+            <SkillBar className="skillbar"
             skills={skills} 
             height={40} 
             font-family ={'avernir next'}

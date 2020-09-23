@@ -6,17 +6,19 @@
 
 .about-container {
     display: flex;
-    flex-direction: row;
     align-items: center;
+    margin: auto;
+    width: 80%;
+    max-height: 700px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
     
 }
 
 .profile-picture {
-    height: 520px;
+    height: 100%;
     
-    margin-left: 200px;
-    margin-top: 100px;
-    margin-bottom: 100px;
     width: 390px;
     box-shadow: 0px 0px 20px 15px #00000020;
     
@@ -24,19 +26,16 @@
 }
 
 .about-text-container {
-    height: 520px;
-    min-height: 300px;
+    display: block;
+    height: 100%;
+    
     margin-left: 100px;
-    margin-right: 200px;
+    
     margin-top: 100px;
     margin-bottom: 100px;
     background-color: #363636;
     box-shadow: 0px 0px 20px 15px #00000020;
-    
-    
     max-width: 1082px;
-    
-    min-width:328px;
     
     width: 100%;
     font-family: avenir next;
@@ -53,13 +52,14 @@
     font-weight: normal;
     margin-left: 20px;
     
-    padding-right: 30px;
 }
 
-.about-text-container h2 {
-    font-size: 35px;
+.about-text-container  h2 {
+    font-size: 30px;
     font-weight: bold;
     margin-left: 20px;
+    margin-block-start: 10px;
+    margin-block-end: 10px;
 }
 
 .get-in-touch {
@@ -89,3 +89,73 @@
     padding: 10px;
 
 }
+
+@media screen and (max-width: 1280px) {
+    .about-container {
+        display: flex;
+        align-items: center;
+        
+    }
+
+    .profile-picture {
+        width: 100%;
+        box-shadow: 0px 0px 20px 15px #00000020;
+    }
+
+    .about-me > p {
+        font-size: 16px;
+        font-weight: normal;
+        margin-left: 20px;
+        
+    }
+
+    .get-in-touch p {
+        font-size: 16px;
+        font-weight: normal;
+        margin-left: 20px;
+        
+    }
+
+    .about-text-container .about-me {
+        padding-right: 50px;
+    }
+
+    .about-text-container  h2 {
+        font-size: 24px;
+        
+    }
+
+    
+}
+
+@media screen and (max-width: 960px) { 
+    
+
+
+}
+  
+@media screen and (max-width: 768px) {
+
+    .about-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+        width: 80%;
+        
+        
+    }
+
+}
+
+
+@media screen  and (max-width: 400px){
+      
+}
+  
+
+
+
+
+
+
