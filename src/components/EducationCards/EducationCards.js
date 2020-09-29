@@ -8,6 +8,10 @@ function EducationCards() {
     return (
         <div className="container">
         <div className="main-container">
+        <div className="title-text-400">
+                    <h2>Education</h2>
+                    <img src={verticalLine} alt=""></img>
+                </div>
             <div className="side-container">
                 <div className="title-text">
                     <h2>Education</h2>

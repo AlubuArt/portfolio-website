@@ -9,7 +9,7 @@ import Footer from './Footer/Footer'
 
 function Home() {
     return (
-        <div>
+        <>
             <HeroSection />
             <About />
             <Resume />
@@ -18,7 +18,7 @@ function Home() {
             <ContactForm />
             <Footer />
 
-        </div>
+        </>
     )
 }
 

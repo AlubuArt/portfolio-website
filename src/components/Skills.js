@@ -7,8 +7,13 @@ import SkillBar from 'react-skillbars';
 
 function Skills() {
     return (
-        <div className="container">
+        <div className="s-container">
         <div className="skills-main-container">
+          <div className="title-text-400">
+                    <h2>Skills</h2>
+                    <img src={verticalLine} alt=""></img>
+                </div>
+    
             <div className="skills-side-container">
                 <div className="title-text">
                     <h2>Skills</h2>
@@ -20,20 +25,20 @@ function Skills() {
 
             </div>
             <div className="skills-container">
-            <SkillBar className="skillbar"
-            skills={skills} 
-            height={40} 
-            font-family ={'avernir next'}
-            colors = {{
-                "bar": "#8AB5BB",
-                "title": {
-                  "text": "#fff",
-                  "background": "#8AB5BB"
-                }
-              }}
-              
-            animationDelay
-              />
+              <SkillBar className="skillbar"
+              skills={skills} 
+              height={40} 
+              font-family ={'avernir next'}
+              colors = {{
+                  "bar": "#8AB5BB",
+                  "title": {
+                    "text": "#fff",
+                    "background": "#8AB5BB"
+                  }
+                }}
+                
+              animationDelay
+                />
                 
             </div>
            

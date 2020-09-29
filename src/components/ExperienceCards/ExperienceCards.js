@@ -7,9 +7,16 @@ import horizontalLine from '../../images/Line 4.png'
 function ExperienceCards() {
     return (
         <div className="container">
+            
         <div className="main-container">
+            <div className="title-text-400">
+                    <h2>Experience</h2>
+                    <img src={verticalLine} alt=""></img>
+                </div>
             <div className="side-container">
+                
                 <div className="title-text">
+                    
                     <h2>Experience</h2>
                     <img src={verticalLine} alt=""></img>
                 </div>
