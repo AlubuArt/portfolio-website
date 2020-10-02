@@ -30,6 +30,9 @@
     padding-bottom: 100px;
 }
 
+
+
+
 .hero-container > p {
     position: absolute;
     top: 50%;
@@ -40,10 +43,30 @@
     font-size: 20px;
     margin-top:50px;
     padding-top: 30px;
-    max-width: auto;;
+    max-width: auto;
     padding-top: 30px;
 }
 
+
+svg{
+    stroke: white;
+    fill: currentcolor;
+    stroke-width: 0;
+    height: 2em;
+    width: 2em;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: avenir next;
+    font-size: 20px;
+    margin-top:80px;
+    padding-top: 30px;
+    max-width: auto;
+    padding-top: 30px;
+    display: block;
+}
 
 
 @media screen and (max-width: 960px) {

@@ -7,7 +7,7 @@ import Projects from './components/Projects/Projects';
 import Quote from './components/Quote/Quote';
 import ContactForm from './components/Contact/ContactForm'
 import Footer from './components/Footer/Footer';
-import { Link, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+import { Link, animateScroll as scroll } from 'react-scroll'
 import './components/navbar.css';
 
 
