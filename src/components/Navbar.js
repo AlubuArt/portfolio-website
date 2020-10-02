@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
-import { Link } from 'react-router-dom';
+import { Link, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+import * as Scroll from 'react-scroll';
 import './navbar.css';
 
 function Navbar() {
@@ -9,12 +10,12 @@ function Navbar() {
                 <div className="navbar-container">
                     <ul className="menu">
                         <li className="link-item">
-                            <Link to="/" className="nav-links">
+                            <Link activeClass="active" to="herosection" spy={true} smooth={true} offset={50} duration={500} className="nav-links">
                             Home
                             </Link>
                         </li>
                         <li className="link-item">
-                            <Link to="/about" className="nav-links">
+                            <Link activeClass="active" to="" spy={true} smooth={true} offset={50} duration={500} className="nav-links">
                             About
                             </Link>
                         </li>

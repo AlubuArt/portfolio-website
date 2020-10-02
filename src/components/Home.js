@@ -10,7 +10,7 @@ import Footer from './Footer/Footer'
 function Home() {
     return (
         <>
-            <HeroSection />
+            <HeroSection/>
             <About />
             <Resume />
             <Projects />

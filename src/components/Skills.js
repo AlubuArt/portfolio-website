@@ -50,10 +50,12 @@ function Skills() {
 export default Skills
 
 const skills = [
-    {type: "Java", level: 85},
-    {type: "Javascript", level: 75},
-    {type: "Javascript", level: 75},
-    {type: "Javascript", level: 75},
-    {type: "Javascript", level: 75},
+    {type: "JavaScript", level: 85},
+    {type: "React", level: 75},
+    {type: "Java", level: 65},
+    {type: "Python", level: 55},
+    {type: "HTML", level: 75},
+    {type: "CSS", level: 70},
+    
   ];
 
