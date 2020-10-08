@@ -1,7 +1,6 @@
 import React from 'react'
-import verticalLine from '/Users/jacobchristensen/Arbejde/code_projekter/website/portfolio/src/images/Path 8.png'
+import verticalLine from '../../src/images/Path 8.png'
 import horizontalLine from '../../src/images/Line 4.png'
-// import SkillBar from './SkillBar';
 import './Skills.css';
 import SkillBar from 'react-skillbars';
 

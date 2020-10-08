@@ -2,7 +2,7 @@ import React from 'react';
 import '../App.css';
 import './HeroSection.css';
 import hero from '../images/header_blaa_2000x1000.jpg';
-import { Link, animateScroll as scroll } from 'react-scroll'
+import { Link} from 'react-scroll'
 import {FaAngleDown} from 'react-icons/fa';
 
 

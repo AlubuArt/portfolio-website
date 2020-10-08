@@ -1,35 +1,41 @@
 import React from 'react'
 import './ResumeCard.css';
-import BlueLine from '/Users/jacobchristensen/Arbejde/code_projekter/website/portfolio/src/images/small_blue_line_to-from.png';
+import BlueLine from '../../src/images/small_blue_line_to-from.png';
 
 
+class ResumeCard extends React.Component  {
+    
+    render() {
+        
+        const { data }  = this.props;
+        //TODO get the keywords from the database and map them.
+        return (
 
-function ResumeCard(props) {
-    return (
-        <div className="resume-card-container">
-            <div className="container-header">
-                <div className="title-ocupation-container">
-                        <h2>{props.title}</h2>
-                        <h3>{props.company}</h3>
+            <div className="resume-card-container">
+                <div className="container-header">
+                    <div className="title-ocupation-container">
+                            <h2>{data.title}</h2>
+                            <h3>{data.company}</h3>
+                    </div>
+                    <div className="from-to">
+                        <p className="text">{data.period}</p>
+                        <img className="blueLine" src={BlueLine} alt=""></img>
+                    </div>
                 </div>
-                <div className="from-to">
-                    <p className="text">{props.year}</p>
-                    <img className="blueLine" src={BlueLine} alt=""></img>
+                <div className="description">
+                    <p>{data.description}</p>
                 </div>
+                <div className="keywords">
+                    <ul>
+                        <li>{data.key1}</li>
+                        <li>{data.key2}</li>
+                        <li>{data.key3}</li>
+                    </ul>
+                </div>
+                
             </div>
-            <div className="description">
-                <p>{props.description}</p>
-            </div>
-            <div className="keywords">
-                <ul>
-                    <li>{props.keyword1}</li>
-                    <li>{props.keyword2}</li>
-                    <li>{props.keyword3}</li>
-                </ul>
-            </div>
-            
-        </div>
-    )
+        )
+    }
 }
 
 export default ResumeCard

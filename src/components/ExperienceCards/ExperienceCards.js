@@ -1,67 +1,46 @@
-import React from 'react'
+import React, {Component} from 'react'
 import ResumeCard from '../ResumeCard';
 import './ExperienceCards.css';
 import verticalLine from '../../images/Path 8.png'
 import horizontalLine from '../../images/Line 4.png'
 
-function ExperienceCards() {
-    return (
-        <div className="container">
-            
-        <div className="main-container">
-            <div className="title-text-400">
-                    <h2>Experience</h2>
-                    <img src={verticalLine} alt=""></img>
-                </div>
-            <div className="side-container">
-                
-                <div className="title-text">
-                    
-                    <h2>Experience</h2>
-                    <img src={verticalLine} alt=""></img>
-                </div>
-                <div className="horizontalLine">
-                    <img src={horizontalLine} alt=""></img>
-                </div>
+class ExperienceCards extends Component {
+    render() {
 
+  
+        if(this.props.data){
+            var exp = this.props.data.experience;
+            var exps = Object.values(exp).map(expArray =>{
+                
+                return <ResumeCard key={expArray.title} data={expArray} />
+            })}
+
+        return (
+            <div className="container">
+                <div className="main-container">
+                    <div className="title-text-400">
+                            <h2>Experience</h2>
+                            <img src={verticalLine} alt=""></img>
+                        </div>
+                    <div className="side-container">
+                        
+                        <div className="title-text">
+                            
+                            <h2>Experience</h2>
+                            <img src={verticalLine} alt=""></img>
+                        </div>
+                        <div className="horizontalLine">
+                            <img src={horizontalLine} alt=""></img>
+                        </div>
+
+                    </div>
+                    <div className="cards-container">   
+                          {exps}
+                    </div>
+                </div>
             </div>
-            <div className="cards-container">
-                <ResumeCard 
-                title="UX & Web Consultant"
-                company="Aalborg University"
-                year="2019-2020"
-                description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.."
-                keyword1="User Experience"
-                keyword2="Web development"
-                keyword3="Google Tag Manager / SEO"/>
-                <ResumeCard 
-                title="UX & Web Consultant"
-                company="Aalborg University"
-                year="2019-2020"
-                description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.."
-                keyword1="User Experience"
-                keyword2="Web development"
-                keyword3="Google Tag Manager / SEO"/>
-                <ResumeCard 
-                title="UX & Web Consultant"
-                company="Aalborg University"
-                year="2019-2020"
-                description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.."
-                keyword1="User Experience"
-                keyword2="Web development"
-                keyword3="Google Tag Manager / SEO"/>
-                <ResumeCard 
-                title="UX & Web Consultant"
-                company="Aalborg University"
-                year="2019-2020"
-                description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.."
-                keyword1="User Experience"
-                keyword2="Web development"
-                keyword3="Google Tag Manager / SEO"/>
-            </div>
-        </div>
-    </div>
-    )
+        )
+    }
 }
 
 export default ExperienceCards;
