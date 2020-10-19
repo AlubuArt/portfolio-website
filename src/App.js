@@ -13,7 +13,6 @@ import './components/navbar.css';
 import { dbRef } from "./components/firebaseConfig";
 import ExperienceCards from "./components/ExperienceCards/ExperienceCards";
 import EducationCards from "./components/EducationCards/EducationCards";
-import SkillBar from "react-skillbars";
 import Skills from "./components/Skills";
 
 

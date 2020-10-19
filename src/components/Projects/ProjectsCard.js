@@ -1,13 +1,35 @@
 import React, { Component } from 'react'
 import './ProjectsCard.css'
-import placeholderImage from '../../images/Skærmbillede 2020-09-21 kl. 15.21.58.png'
-// import line from '../../images'
+
+
+
 
 class ProjectsCard extends Component {
 
     render(){
 
         const { data } = this.props;
+        
+
+        if(data.githubLink) {
+            var githubLink = <>
+            
+            <div className="github-link"><a href={data.githubLink}>Se på github</a></div>
+            </>
+            
+            
+        } 
+
+        
+        if (data.liveLink) {
+            var liveLink = <>
+                <div className="live-version-link">
+                    <a href={data.liveLink} target="_blank" rel="noopener noreferrer">Se live</a>
+                </div>
+            </>
+        }
+
+        
         return (
             <div className="Card-container">
                 <div className="projectsCard-header-container">
@@ -21,11 +43,11 @@ class ProjectsCard extends Component {
                     </div>
                     <div className="project-image-container">
                         <div className="project-image">
-                            <img src={placeholderImage} alt=""></img>
+                            <img src={data.picture} alt=""></img>
                         </div>
                         <div className="project-image-container-footer">
-                            <div className="live-version-link"><a href={data.link1} >View Live Version </a></div>
-                            <div className="github-link"><a href={data.link2}>View on Github</a></div>
+                            {liveLink}
+                            {githubLink}
                         </div>
                     </div>
                 </div>
