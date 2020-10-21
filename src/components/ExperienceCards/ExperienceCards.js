@@ -19,14 +19,14 @@ class ExperienceCards extends Component {
             <div className="container">
                 <div className="main-container">
                     <div className="title-text-400">
-                            <h2>Experience</h2>
+                            <h2>Erfaringer</h2>
                             <img src={verticalLine} alt=""></img>
                         </div>
                     <div className="side-container">
                         
                         <div className="title-text">
                             
-                            <h2>Experience</h2>
+                            <h2>Erfaringer</h2>
                             <img src={verticalLine} alt=""></img>
                         </div>
                         <div className="horizontalLine">

@@ -18,12 +18,12 @@ class EducationCards extends Component {
             <div className="container">
                 <div className="main-container">
                     <div className="title-text-400">
-                        <h2>Education</h2>
+                        <h2>Uddannelse</h2>
                         <img src={verticalLine} alt=""></img>
                     </div>
                 <div className="side-container">
                     <div className="title-text">
-                        <h2>Education</h2>
+                        <h2>Uddannelse</h2>
                         <img src={verticalLine} alt=""></img>
                     </div>
                     <div className="horizontalLine">

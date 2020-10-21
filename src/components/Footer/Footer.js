@@ -8,9 +8,15 @@ function Footer() {
     return (
         <div className="footer-main-container">
             <div className="footer-container">
-                                <img src={linkedIn} alt="linkedin"></img>
-                                <img src={github} alt="github"></img>
-                                <img src={email} alt="email"></img>
+                                <a href="https://www.linkedin.com/in/jacob-christensen-konceptudvikling/" target="_blank">
+                                    <img src={linkedIn} alt="linkedin"></img>
+                                </a>
+                                <a href="https://github.com/AlubuArt" target="_blank">
+                                    <img src={github} alt="github"></img>
+                                </a>
+                                <a href="mailto:jc@jcvisueldesign.dk">
+                                    <img src={email}  type="email" alt="email"></img>
+                                </a>
                             </div>
             
         </div>

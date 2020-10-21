@@ -9,13 +9,13 @@ function Skills() {
         <div className="s-container">
         <div className="skills-main-container">
           <div className="title-text-400">
-                    <h2>Skills</h2>
+                    <h2>Kompetencer</h2>
                     <img src={verticalLine} alt=""></img>
                 </div>
     
             <div className="skills-side-container">
                 <div className="title-text">
-                    <h2>Skills</h2>
+                    <h2>Kompetencer</h2>
                     <img src={verticalLine} alt=""></img>
                 </div>
                 <div className="skills-horizontalLine">
@@ -49,12 +49,12 @@ function Skills() {
 export default Skills
 
 const skills = [
-    {type: "JavaScript", level: 85},
-    {type: "React", level: 75},
-    {type: "Java", level: 65},
-    {type: "Python", level: 55},
-    {type: "HTML", level: 75},
-    {type: "CSS", level: 70},
     
+    {type: "Webudvikling", level: 65},
+    {type: "UX/UI", level: 80},
+    {type: "Webdesign", level: 75},
+    {type: "Scripting", level: 55},
+    {type: "Konceptudv.", level: 85},
+    {type: "Prototyping", level: 75},
   ];
 

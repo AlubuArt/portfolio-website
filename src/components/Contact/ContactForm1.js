@@ -32,7 +32,7 @@ class ContactForm1 extends Component {
         .catch( () => {
           console.log('Besked ikke sendt')
         })
-      }
+    }
 
     render(){
     return (
@@ -72,7 +72,7 @@ class ContactForm1 extends Component {
             </div>
         </div>
     )
-}
+    }
 }
 
 export default ContactForm1

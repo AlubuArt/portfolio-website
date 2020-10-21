@@ -33,13 +33,13 @@ class About extends React.Component {
                     </div>
                     <div className="about-text-container">
                         <div className="about-me">
-                            <h2>About me</h2>
+                            <h2>Hvem jeg er...</h2>
                             <p>{aboutMe}</p>
                         </div>
                         <br />
                         <div className="one-two">
                             <div className="get-in-touch">
-                                <h2>Where to get in touch</h2>
+                                <h2>Tag kontakt her</h2>
                                 <p>{name}</p>
                                 <p>{city}</p>
                                 <p>{phone}</p>
@@ -47,9 +47,15 @@ class About extends React.Component {
                             </div>
                         </div>
                         <div className="icon-container">
-                                <img src={linkedIn} alt="linkedin"></img>
-                                <img src={github} alt="github"></img>
-                                <img src={emailIcon} alt="email"></img>
+                                <a href="https://www.linkedin.com/in/jacob-christensen-konceptudvikling/" target="_blank">
+                                    <img src={linkedIn} alt="linkedin"></img>
+                                </a>
+                                <a href="https://github.com/AlubuArt" target="_blank">
+                                    <img src={github} alt="github"></img>
+                                </a>
+                                <a href="mailto:jc@jcvisueldesign.dk">
+                                    <img src={emailIcon}  type="email" alt="email"></img>
+                                </a>
                             </div>
                     </div> 
             </div>

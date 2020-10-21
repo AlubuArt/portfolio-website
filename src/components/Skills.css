@@ -26,12 +26,10 @@
     display: block;
     margin: auto;
     width: 75%;
+    font-size: 12px;
 
     
 }
-
-
-
 
 .skills-horizontalLine {
     
@@ -55,6 +53,11 @@
 
 .title-text-400 {
     display:none;
+}
+
+.skillbar-title {
+    font-size: 10px;
+    font-family: avenir next;
 }
 
 @media screen and (max-width: 1536px) {
@@ -121,6 +124,8 @@
     .title-text {
         font-size: 14px;
     }
+
+    
 }
 
 
@@ -260,6 +265,11 @@
     .title-text-400 > img {
         width: 170px;
         margin-top: -10px;
+    }
+
+    .skillbar-title {
+        font-size: 10px;
+        font-family: avenir next;
     }
 
 }

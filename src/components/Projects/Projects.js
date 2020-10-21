@@ -16,7 +16,7 @@ class Projects extends Component {
             <div className="projects-container">
                 <div className="projects-main-container">
                     <div className="projects-header-container">
-                        <h1 className="section-title">What projects i have done</h1>
+                        <h1 className="section-title">Projekter jeg har arbejdet med</h1>
                     </div>
                     <div className="projectCards-container">
                         {projects}
