@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import ResumeCard from '../ResumeCard';
 import '../ExperienceCards/ExperienceCards.css';
-import verticalLine from '../../images/Path 8.png'
+import verticalLine from '../../images/Path-8.png'
 import horizontalLine from '../../images/Line 4.png'
 
 class EducationCards extends Component {

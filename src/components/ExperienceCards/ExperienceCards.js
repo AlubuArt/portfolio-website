@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import ResumeCard from '../ResumeCard';
 import './ExperienceCards.css';
-import verticalLine from '../../images/Path 8.png'
+import verticalLine from '../../images/Path-8.png'
 import horizontalLine from '../../images/Line 4.png'
 
 class ExperienceCards extends Component {
@@ -20,7 +20,7 @@ class ExperienceCards extends Component {
                 <div className="main-container">
                     <div className="title-text-400">
                             <h2>Erfaringer</h2>
-                            <img src={verticalLine} alt=""></img>
+                            <img src={verticalLine}  alt=""></img>
                         </div>
                     <div className="side-container">
                         

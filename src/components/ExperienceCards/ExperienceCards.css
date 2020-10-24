@@ -1,7 +1,7 @@
 .container {
     display: flex;
     margin: auto;
-    width: 53%;
+    width: 73%;
 
     
 }
@@ -17,7 +17,7 @@
 .side-container {
     
     width: 150px;
-    overflow: hidden;
+    
     /* background-color: aliceblue; */
     height: auto;
 
@@ -55,6 +55,7 @@
     margin-block-end: -10px;
     
 }
+
 
 @media screen and (max-width: 1536px) {
     .container {

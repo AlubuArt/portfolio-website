@@ -1,5 +1,6 @@
 
 import "firebase/database";
+import "firebase/analytics";
 import React from 'react';
 import './App.css';
 import About from './components/About';
@@ -57,27 +58,27 @@ class App extends React.Component{
                             <ul className="menu">
                                 <li className="link-item">
                                     <Link activeClass="active" to="hero-container" spy={true} smooth={true} offset={50} duration={500} className="nav-links">
-                                    Home
+                                    Hjem
                                     </Link>
                                 </li>
                                 <li className="link-item">
                                     <Link activeClass="active" to="about" spy={true} smooth={true} offset={50} duration={500} className="nav-links">
-                                    About
+                                    Hvem er jeg?
                                     </Link>
                                 </li>
                                 <li className="link-item">
                                     <Link activeClass="active" to="cards-container" spy={true} smooth={true} offset={-120} duration={500} className="nav-links">
-                                    Resume
+                                    Resumè
                                     </Link>
                                 </li>
                                 <li className="link-item">
                                     <Link activeClass="active" to="projects-container" spy={true} smooth={true} offset={-30} duration={500} className="nav-links">
-                                    Projects
+                                    Projekter
                                     </Link>
                                 </li>
                                 <li className="link-item">
                                     <Link activeClass="active" to="contact-container" spy={true} smooth={true} offset={-30} duration={500} className="nav-links">
-                                    Contact
+                                    Kontakt
                                     </Link>
                                 </li>
                             </ul>
