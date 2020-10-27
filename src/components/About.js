@@ -1,27 +1,24 @@
-import * as firebase from "firebase/app";
+
 import "firebase/database";
 import React from 'react'
 import './About.css';
-import profilePic from '../images/IMG_2142.jpg';
 import linkedIn from '../images/linkedin-3-32.png';
 import github from '../images/github-11-32.png';
 import emailIcon from '../images/email-32.png';
-import {dbRef} from '../components/firebaseConfig';
-
 
 
 class About extends React.Component {
-
-    
+  
     
     render(){
 
     if(this.props.data){
-       var  aboutMe = this.props.data.AboutMe;
+       var aboutMe = this.props.data.AboutMe;
        var city = this.props.data.getInTouch.CityCountry;
        var email = this.props.data.getInTouch.email;
        var name = this.props.data.getInTouch.name;
        var phone = this.props.data.getInTouch.phone;
+       var profilePicture = this.props.data.profilePicture;
        
     }
     
@@ -29,7 +26,7 @@ class About extends React.Component {
         <div className="about">
             <div className="about-container">
                     <div>
-                        <img src={profilePic} className="profile-picture" alt="jacob"></img>
+                        <img src={profilePicture} className="profile-picture" alt="jacob"></img>
                     </div>
                     <div className="about-text-container">
                         <div className="about-me">
@@ -63,26 +60,6 @@ class About extends React.Component {
     )
 }
 
-
-//hent data fra databasen
-getAboutText = () => {
-        
-    dbRef.ref('/About/AboutMe').once('value', snapshot => {
-    const state = snapshot.val(); 
-    this.setState({aboutMeTexts: state})
-    });
-     
 }
-
-
-
-
-
-
-
-}
-
-
-
 
 export default About;

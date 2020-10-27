@@ -83,6 +83,7 @@ class App extends React.Component{
                             </ul>
                         </div>
                     </nav>
+                    
             <HeroSection data={this.state.portfolioData.HeroSection}/>
             <About data={this.state.portfolioData.About}/>
             <ExperienceCards data={this.state.portfolioData.resume}/>

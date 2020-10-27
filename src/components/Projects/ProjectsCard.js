@@ -13,14 +13,10 @@ class ProjectsCard extends Component {
 
         if(data.githubLink) {
             var githubLink = <>
-            
-            <div className="github-link"><a href={data.githubLink}>Se på github</a></div>
-            </>
-            
-            
+             <div className="github-link"><a href={data.githubLink} target="_blank">Se på github</a></div>
+            </>   
         } 
 
-        
         if (data.liveLink) {
             var liveLink = <>
                 <div className="live-version-link">
@@ -29,7 +25,6 @@ class ProjectsCard extends Component {
             </>
         }
 
-        
         return (
             <div className="Card-container">
                 <div className="projectsCard-header-container">
@@ -39,7 +34,6 @@ class ProjectsCard extends Component {
                 <div className="two-col-container">
                     <div className="project-description-container">
                         <p>{data.description}</p>
-                            
                     </div>
                     <div className="project-image-container">
                         <div className="project-image">
@@ -51,7 +45,6 @@ class ProjectsCard extends Component {
                         </div>
                     </div>
                 </div>
-                
             </div>
         )
     }
