@@ -13,7 +13,6 @@ import './components/navbar.css';
 import { dbRef } from "./components/firebaseConfig";
 import ExperienceCards from "./components/ExperienceCards/ExperienceCards";
 import EducationCards from "./components/EducationCards/EducationCards";
-import Skills from "./components/Skills";
 import ContactForm1 from "./components/Contact/ContactForm1";
 
 
@@ -88,7 +87,7 @@ class App extends React.Component{
             <About data={this.state.portfolioData.About}/>
             <ExperienceCards data={this.state.portfolioData.resume}/>
             <EducationCards data={this.state.portfolioData.resume} />
-            <Skills />
+            
             <Projects data={this.state.portfolioData.projects}/>
             <Quote data={this.state.portfolioData.Quote} />
             <ContactForm1 />
