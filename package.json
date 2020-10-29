@@ -25,7 +25,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "test:unit": "mocha --require @babel/register --require ./test/helpers.js --require ./test/dom.js --require ignore-styles 'src/**/*.spec.js'",
+    "test:unit:watch": "npm run test:unit -- --watch"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -44,7 +46,13 @@
   },
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "@babel/register": "^7.12.1",
+    "chai": "^4.2.0",
+    "ignore-styles": "^5.0.1",
+    "jsdom": "^16.4.0",
+    "mocha": "^8.2.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AlubuArt/portfolio.git"

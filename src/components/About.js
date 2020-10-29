@@ -14,10 +14,6 @@ class About extends React.Component {
 
     if(this.props.data){
        var aboutMe = this.props.data.AboutMe;
-       var city = this.props.data.getInTouch.CityCountry;
-       var email = this.props.data.getInTouch.email;
-       var name = this.props.data.getInTouch.name;
-       var phone = this.props.data.getInTouch.phone;
        var profilePicture = this.props.data.profilePicture;
        
     }
