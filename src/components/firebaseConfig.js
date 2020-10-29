@@ -15,6 +15,7 @@ export var firebaseConfig = {
 
 
 firebase.initializeApp(firebaseConfig);
+firebase.analytics();
 //connection to database
 export const dbRef = firebase.database();
 
