@@ -33,16 +33,6 @@ class About extends React.Component {
                             <h2>Hvem jeg er...</h2>
                             <p>{aboutMe}</p>
                         </div>
-                        <br />
-                        <div className="one-two">
-                            <div className="get-in-touch">
-                                <h2>Tag kontakt her</h2>
-                                <p>{name}</p>
-                                <p>{city}</p>
-                                <p>{phone}</p>
-                                <p>{email}</p>
-                            </div>
-                        </div>
                         <div className="icon-container">
                                 <a href="https://www.linkedin.com/in/jacob-christensen-konceptudvikling/" target="_blank">
                                     <img src={linkedIn} alt="linkedin"></img>
