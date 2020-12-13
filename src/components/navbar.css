@@ -78,11 +78,12 @@
 
 @media screen  and (max-width: 400px){
   .menu {
-    margin-right: 0px;
+    margin-right: 10px;
+
   }
   
   .nav-links {
-    font-size: 14px;
+    font-size: 11px;
 
   }
 
@@ -94,6 +95,7 @@
   .navbar-container {
     display: flex;
     justify-content: center;
+    
   }
 }
 

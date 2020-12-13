@@ -10,7 +10,7 @@ function Navbar() {
                                 
                                 <li className="link-item">
                                     <Link activeClass="active" to="about" spy={true} smooth={true} offset={50} duration={500} className="nav-links">
-                                    Hvem er jeg?
+                                    Om
                                     </Link>
                                 </li>
                                 <li className="link-item">
