@@ -31,8 +31,17 @@ class ProjectsCard extends Component {
                     <h2>{data.title}</h2>
                     {/* <img src={line}></img> */}
                 </div>
+                
                 <div className="two-col-container">
+                
                     <div className="project-description-container">
+                    <div className="keywords">
+                    <ul>
+                        <li>{data.key1}</li>
+                        <li>{data.key2}</li>
+                        <li>{data.key3}</li>
+                    </ul>
+                </div>
                         <p>{data.description}</p>
                     </div>
                     <div className="project-image-container">

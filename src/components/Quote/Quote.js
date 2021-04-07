@@ -29,3 +29,5 @@ class Qoute extends React.Component {
 
 export default Qoute
 
+
+

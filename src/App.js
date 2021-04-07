@@ -53,9 +53,9 @@ class App extends React.Component{
                 <Navbar />
                 <HeroSection data={this.state.portfolioData.HeroSection}/>
                 <About data={this.state.portfolioData.About}/>
+                <Projects data={this.state.portfolioData.projects}/>
                 <ExperienceCards data={this.state.portfolioData.resume}/>
                 <EducationCards data={this.state.portfolioData.resume} />
-                <Projects data={this.state.portfolioData.projects}/>
                 <Quote data={this.state.portfolioData.Quote} />
                 <ContactForm1 />
                 <Footer />
