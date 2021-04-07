@@ -5,6 +5,7 @@ import './About.css';
 import linkedIn from '../images/linkedin-3-32.png';
 import github from '../images/github-11-32.png';
 import emailIcon from '../images/email-32.png';
+import firebase from "firebase";
 
 
 class About extends React.Component {
@@ -26,7 +27,7 @@ class About extends React.Component {
                     </div>
                     <div className="about-text-container">
                         <div className="about-me">
-                            <h2>Hvem jeg er...</h2>
+                            <h2>Digital produktudvikling med fokus på frontend og UX</h2>
                             <p>{aboutMe}</p>
                         </div>
                         <div className="icon-container">
@@ -49,3 +50,5 @@ class About extends React.Component {
 }
 
 export default About;
+
+ 

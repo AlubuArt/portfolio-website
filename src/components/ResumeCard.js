@@ -22,9 +22,6 @@ class ResumeCard extends React.Component  {
                         <img className="blueLine" src={BlueLine} alt=""></img>
                     </div>
                 </div>
-                <div className="description">
-                    <p>{data.description}</p>
-                </div>
                 <div className="keywords">
                     <ul>
                         <li>{data.key1}</li>
@@ -32,6 +29,10 @@ class ResumeCard extends React.Component  {
                         <li>{data.key3}</li>
                     </ul>
                 </div>
+                <div className="description">
+                    <p>{data.description}</p>
+                </div>
+               
                 
             </div>
         )
