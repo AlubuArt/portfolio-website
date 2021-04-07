@@ -25,8 +25,8 @@ class ContactForm1 extends Component {
             message: this.state.message
         }
         
-        axios.post('API_URI', data)
-        .then( res => {
+        axios.post('jc@visueldesign.dk', data)
+        .then(res => {
             this.setState({ sent: true }, this.resetForm())
         })
         .catch( () => {
