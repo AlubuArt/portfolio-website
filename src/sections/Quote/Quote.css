@@ -1,0 +1,138 @@
+.quote-container {
+    background: url("../../images/parallax_background.jpg");
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height:1000px;
+    background-repeat: no-repeat;
+    display: flex;
+    
+  
+}
+
+.quote-text {
+    
+    width: 35%;
+    text-align: center;
+    font-size: 28px;
+    color: white;
+    font-style: italic;
+    padding-top: 150px;
+    font-family: avenir next;
+}
+
+
+.author {
+    text-align: right;
+}
+
+.author > p {
+    font-size: 18px;
+}
+
+@media screen and (max-width:1366px) {
+    .quote-container {
+        background-size: contain;
+    
+    }
+    
+    .quote-text {
+        padding-top:1px;
+        width: 50%;
+ 
+    }
+    
+    .author {
+        text-align: right;
+    }
+    
+    .author > p {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:1280px) { 
+    .quote-container {
+        background-size: contain;
+    
+    }
+    
+    .quote-text {
+        padding-top:1px;
+        width: 50%;
+ 
+    }
+    
+    .author {
+        text-align: right;
+    }
+    
+    .author > p {
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (max-width: 960px) { 
+    
+    .quote-container {
+        background-size: contain;
+    
+    }
+    
+    .quote-text {
+        padding-top:1px;
+        width: 50%;
+ 
+    }
+    
+    .author {
+        text-align: right;
+    }
+    
+    .author > p {
+        font-size: 20px;
+    }
+
+}
+  
+@media screen and (max-width: 768px) {
+    .quote-container {
+
+        width: auto;
+        height: 700px;
+        background-size: auto;
+        background-position: center;
+          
+        }
+    
+        .quote-text {
+            padding-top:0px;
+            width: 80%;
+            text-align: center;
+            font-size: 18px;
+            
+        }
+
+}
+
+
+@media screen  and (max-width: 400px){
+    .quote-container {
+       
+    
+    width: auto;
+    height: 700px;
+    background-size: auto;
+    background-position: center;
+      
+    }
+
+    .quote-text {
+        padding-top:0px;
+        width: 80%;
+        text-align: center;
+        font-size: 18px;
+        
+    }
+}

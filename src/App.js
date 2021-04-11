@@ -49,7 +49,6 @@ class App extends React.Component{
 
         return (
             <>
-            
                 <Navbar />
                 <HeroSection data={this.state.portfolioData.HeroSection}/>
                 <About data={this.state.portfolioData.About}/>
