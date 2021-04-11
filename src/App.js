@@ -45,8 +45,6 @@ class App extends React.Component{
         
     }
 
-    //just a comment - delete it
-
     render() {
 
         return (
