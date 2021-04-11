@@ -3,17 +3,17 @@ import "firebase/database";
 import "firebase/analytics";
 import React from 'react';
 import './App.css';
-import About from './components/About';
-import HeroSection from './components/HeroSection'
-import Projects from './components/Projects/Projects';
-import Quote from './components/Quote/Quote';
-import Footer from './components/Footer/Footer';
-import './components/navbar.css';
-import { dbRef } from "./components/firebaseConfig";
-import ExperienceCards from "./components/ExperienceCards/ExperienceCards";
-import EducationCards from "./components/EducationCards/EducationCards";
-import ContactForm1 from "./components/Contact/ContactForm1";
-import Navbar from "./components/Navbar";
+import About from './sections/About/About';
+import HeroSection from './sections/Hero/Hero'
+import Projects from './sections/Projects/Projects';
+import Quote from './sections/Quote/Quote';
+import Footer from './sections/Footer/Footer';
+import './sections/Navbar/navbar.css';
+import { dbRef } from "./sections/firebaseConfig";
+import ExperienceCards from "./sections/Experiences/Experiences";
+import EducationCards from "./sections/Education/Education";
+import ContactForm1 from "./sections/Contact/ContactForm1";
+import Navbar from "./sections/Navbar/Navbar";
 
 
 
